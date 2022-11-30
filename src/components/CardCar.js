@@ -12,7 +12,7 @@ const CardCar = ({ item }) => {
                 </div>
                 <p className='font-bold text-[#555]'>{item.car_name}</p>
             </div>
-            <img src={item.carImg} alt='car' className='rounded shadow-xl my-2  w-full h-40' />
+            <img src={item.carImg} alt='car' className='rounded shadow-xl my-2  w-full h-44' />
             <div className='flex text-[#555] justify-between text-[13px]'>
                 <p className=''>Mileage <span className='font-semibold text-[15px]'>{item.mileage} km</span></p>
                 <p className=''>Location <span className='font-semibold text-[15px]'>{item.location}</span></p>
