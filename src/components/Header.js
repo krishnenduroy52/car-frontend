@@ -44,7 +44,7 @@ const Header = (props) => {
             <div className="flex absolute right-0 w-[20%]">
                 <Link
                     to="/sell"
-                    className="bg-[#efa7a7] py-2.5 px-8 rounded font-semibold text-[#ff0000]"
+                    className="bg-[#ff0000] py-2.5 px-8 rounded font-semibold text-white"
                 >
                     Sell a car
                 </Link>
