@@ -9,7 +9,6 @@ import { useEffect, useState } from 'react'
 function App() {
   const [car, setCar] = useState([]);
   const [search, setSearch] = useState(null);
-  console.log(car)
 
   useEffect(() => {
     axios.get("https://carbackend52.onrender.com/car/list").then((res) => setCar(res.data));
@@ -20,7 +19,6 @@ function App() {
     setSearch(searchCar)
   }
 
-  // console.log(search)
   return (
     <div className="flex-row bg-[#f2f2f2] min-h-screen">
       <Router>
